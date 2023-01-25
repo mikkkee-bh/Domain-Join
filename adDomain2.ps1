@@ -29,10 +29,12 @@ Write-Host "End of Domainjoin and local admin join"
 
 ## Add local admin to group
 Add-LocalGroupMember -Group "Administrators" -Member "BHI-MASTER\BHCAzure_Officina2_Windows_HPA"
+Add-LocalGroupMember -Group "Administrators" -Member "BHI-MASTER\BHCAzure_HPA_ALL"
+Add-LocalGroupMember -Group "Administrators" -Member "BHI-MASTER\BHCAzure_Jivs_Windows_HPA_p"
 
-Write-Host "Waiting to restart with time"
+## Write-Host "Waiting to restart with time"
 
-Start-Sleep -Seconds 10
-Write-Host "Restarting the system"
+## Start-Sleep -Seconds 10
+## Write-Host "Restarting the system"
 
-Restart-Computer
+## Restart-Computer
