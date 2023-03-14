@@ -30,7 +30,7 @@ Write-Host "End of Domainjoin and local admin join"
 ## Add local admin to group
 Add-LocalGroupMember -Group "Administrators" -Member "BHI-MASTER\BHCAzure_Officina2_Windows_HPA"
 Add-LocalGroupMember -Group "Administrators" -Member "BHI-MASTER\BHCAzure_HPA_ALL"
-Add-LocalGroupMember -Group "Administrators" -Member "BHI-MASTER\BHCAzure_ATIVA_MATDON_6.0_Windows_HPA_p"
+##Add-LocalGroupMember -Group "Administrators" -Member "BHI-MASTER\BHCAzure_ATIVA_MATDON_6.0_Windows_HPA_p"
 
 ## Write-Host "Waiting to restart with time"
 
